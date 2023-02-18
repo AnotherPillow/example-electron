@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Renderer</title> <!--Title of the window (Not very useful but nice to have)-->
+        <link rel="stylesheet" href="style.css"> <!--Import stylesheet, optional-->
+        <script src="renderer.js"></script> <!--Import javascript, optional-->
+    </head>
+    <body>
+        <p>An example electron app!</p> <!--Example text-->
+        <button onclick="listdir()">List current directory</button> <!--Button that calls the listdir function in renderer.js-->
+        <p style="display:none;" id="directory">Directory contents</p> <!--Text for the directory contents, hidden by default-->
+    </body>
+</html>

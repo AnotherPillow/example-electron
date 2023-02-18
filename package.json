@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "electron": "^22.3.0",
+    "electron-packager": "^17.1.1"
+  },
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-packager . --overwrite --asar --platform=win32 --arch=x64 --prune=true --out=dist/ --electron-version=22.0.0"
+  },
+  "productName": "Example Electron",
+  "description": "An example Electron app",
+  "author": "Example Author",
+  "version": "1.0.0",
+  "name": "example_electron"
+}
